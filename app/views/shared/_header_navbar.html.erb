@@ -7,7 +7,13 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <%= link_to application_name, root_path, class: "navbar-brand" %>
+    <div class ="navbar-header">
+    <%= image_tag "PUL_Logo.png", :alt => "Princeton University Library", class: "navbar-pul" %>
+    </div>
+    <div class ="navbar-header">
+    <%= link_to "Lapidus Reperta Project", root_path, class: "navbar-lapidus" %>
+    </div>
+
     </div>
 
     <div class="collapse navbar-collapse" id="user-util-collapse">
